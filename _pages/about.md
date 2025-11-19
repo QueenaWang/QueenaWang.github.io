@@ -40,5 +40,33 @@ useful solutions. Recently I’ve been especially interested in how AI and new t
 can support better decision-making, improve learning experiences and create more global
 and accessible ways of working.
 
-I’m particularly interested in consulting, data-driven strategy and technology-focused roles
+I'm particularly interested in consulting, data-driven strategy and technology-focused roles
 where analytical thinking creates real business impact.
+
+## Skills
+
+### Programming & Languages
+
+<span class="badge badge-pill badge-primary mr-1 mb-1">Python</span>
+<span class="badge badge-pill badge-primary mr-1 mb-1">R</span>
+<span class="badge badge-pill badge-primary mr-1 mb-1">SQL</span>
+<span class="badge badge-pill badge-primary mr-1 mb-1">VBA</span>
+<span class="badge badge-pill badge-primary mr-1 mb-1">JavaScript</span>
+
+### Tools & Platforms
+
+<span class="badge badge-pill badge-secondary mr-1 mb-1">Excel</span>
+<span class="badge badge-pill badge-secondary mr-1 mb-1">Tableau</span>
+<span class="badge badge-pill badge-secondary mr-1 mb-1">Power BI</span>
+<span class="badge badge-pill badge-secondary mr-1 mb-1">Jupyter</span>
+<span class="badge badge-pill badge-secondary mr-1 mb-1">Git</span>
+<span class="badge badge-pill badge-secondary mr-1 mb-1">GitHub</span>
+
+### Professional Expertise
+
+<span class="badge badge-pill badge-success mr-1 mb-1">Actuarial Modeling</span>
+<span class="badge badge-pill badge-success mr-1 mb-1">Risk Assessment</span>
+<span class="badge badge-pill badge-success mr-1 mb-1">Data Analysis</span>
+<span class="badge badge-pill badge-success mr-1 mb-1">Machine Learning</span>
+<span class="badge badge-pill badge-success mr-1 mb-1">Financial Modeling</span>
+<span class="badge badge-pill badge-success mr-1 mb-1">Consulting</span>
