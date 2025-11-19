@@ -13,11 +13,11 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: |
     <p><i class="fa-solid fa-location-dot"></i> London, UK</p>
-    <p><i class="fa-solid fa-graduation-cap"></i> LSE, University of Edinburgh</p>
-    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:queenaaa.xyw@gmail.com">queenaaa.xyw@gmail.com</a></p>
-    <p><a href="https://github.com/QueenaWang" target="_blank"><i class="fa-brands fa-github" style="font-size: 1.2em;"></i> GitHub</a></p>
-    <p><a href="https://www.linkedin.com/in/queenaw/" target="_blank"><i class="fa-brands fa-linkedin" style="font-size: 1.2em;"></i> LinkedIn</a></p>
-    <p><a href="https://calendly.com/queenaa-wxy/30min" target="_blank"><i class="fa-solid fa-calendar-check" style="font-size: 1.2em;"></i> Book a Chat</a></p>
+    <p><i class="fa-solid fa-graduation-cap"></i> The London School of Economics</p>
+    <p><a href="https://github.com/QueenaWang" target="_blank" style="color: var(--global-text-color); text-decoration: none;"><i class="fa-brands fa-github" style="font-size: 1.2em;"></i> GitHub</a></p>
+    <p><a href="https://www.linkedin.com/in/queenaw/" target="_blank" style="color: var(--global-text-color); text-decoration: none;"><i class="fa-brands fa-linkedin" style="font-size: 1.2em;"></i> LinkedIn</a></p>
+    <p><a href="https://calendly.com/queenaa-wxy/30min" target="_blank" style="color: var(--global-text-color); text-decoration: none;"><i class="fa-solid fa-calendar-check" style="font-size: 1.2em;"></i> Book a Chat</a></p>
+    <p><a href="mailto:queenaaa.xyw@gmail.com" style="color: var(--global-text-color); text-decoration: none;"><i class="fa-solid fa-envelope"></i> queenaaa.xyw@gmail.com</a></p>
 
 selected_papers: false
 social: true
