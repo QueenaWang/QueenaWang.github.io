@@ -11,7 +11,7 @@ profile:
   align: right
   image: QW-photo.JPG
   image_circular: false # crops the image to make it circular
-  more_info: >
+  more_info: |
     <p><i class="fa-solid fa-location-dot"></i> London, UK</p>
     <p><i class="fa-solid fa-graduation-cap"></i> LSE, University of Edinburgh</p>
     <p><i class="fa-solid fa-envelope"></i> <a href="mailto:queenaaa.xyw@gmail.com">queenaaa.xyw@gmail.com</a></p>
