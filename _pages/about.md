@@ -15,6 +15,7 @@ profile:
     <p>London, United Kingdom</p>
     <p><a href="mailto:queenaaa.xyw@gmail.com">queenaaa.xyw@gmail.com</a></p>
     <p><a href="https://www.linkedin.com/in/queenaw/" target="_blank">LinkedIn</a></p>
+    <p><a href="https://calendly.com/queenaa-wxy/30min" target="_blank">📅 Book a Chat</a></p>
 
 selected_papers: false
 social: true
