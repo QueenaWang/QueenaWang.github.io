@@ -8,7 +8,7 @@ category: work
 github: # Add your GitHub repository URL here (if available)
 demo: # Add your demo/video URL here (if available)
 award: "🏆 Winner (1st Place) - 173/205 audience votes"
-date: "2025-07"
+date: "2025-07-01"
 ---
 
 ## Overview
