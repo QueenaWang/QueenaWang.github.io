@@ -141,5 +141,10 @@ various interests:
 - **🏀 Sports**: Basketball (university team member)
 - **🎵 Music**: Playing Guzheng (Level 8, national certificate)
 - **🍳 Cooking**: Fusion of Sichuan and Mediterranean styles
+- **📚 Reading & Learning**: Always curious about new ideas and perspectives (check out my [bookshelf](/books/))
+- **🌍 Languages**: Learning Japanese and exploring different cultures through language
+- **💻 Coding & Competitions**: Participating in hackathons and data science competitions
+- **🤝 Community**: Co-founded and led the Actuarial Society at University of Edinburgh,
+  growing it to 100+ members
 
 _Want to hear more about my adventures or share your own? Feel free to reach out!_
