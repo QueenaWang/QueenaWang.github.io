@@ -8,7 +8,7 @@ travel_map: true
 _styles: >
   #travel-map {
     width: 100%;
-    height: 700px;
+    height: 800px;
     border-radius: 8px;
     margin: 2rem 0;
     border: 1px solid var(--global-divider-color);
