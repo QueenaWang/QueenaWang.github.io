@@ -126,6 +126,7 @@ where analytical thinking creates real business impact.
   color: var(--global-text-color);
   margin-bottom: 0.25rem;
   transition: all 0.3s ease;
+  white-space: nowrap;
 }
 
 .timeline-location {
