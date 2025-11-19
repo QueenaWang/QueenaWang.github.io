@@ -29,8 +29,10 @@ latest_posts:
   limit: 3
 ---
 
-I’m an Actuarial Associate at PwC and a MFin student at LSE, with a BSc (Hons)
+I'm an Actuarial Associate at PwC and a part-time MFin student at LSE, with a BSc (Hons)
 in Mathematics and Statistics from the University of Edinburgh.
+
+**Last updated: 2025-11-19 19:01:33**
 
 I enjoy working at the intersection of finance, technology and data. I like taking complex
 or unstructured problems, finding the logic behind them, and turning them into clear and
