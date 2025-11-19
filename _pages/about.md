@@ -43,6 +43,35 @@ and accessible ways of working.
 I'm particularly interested in consulting, data-driven strategy and technology-focused roles
 where analytical thinking creates real business impact.
 
+## Timeline
+
+<ul class="timeline">
+  <li>
+    <strong>Sep 2024 - Present</strong><br>
+    <strong>Actuary Associate</strong> @ PwC, London
+  </li>
+  <li>
+    <strong>May 2024 - Aug 2024</strong><br>
+    <strong>Visiting Scholar</strong> @ Stanford University, Palo Alto
+  </li>
+  <li>
+    <strong>Sep 2021 - May 2024</strong><br>
+    <strong>BSc Mathematics and Statistics</strong> @ University of Edinburgh
+  </li>
+  <li>
+    <strong>Jul 2023 - Aug 2023</strong><br>
+    <strong>Actuarial Analyst</strong> @ PwC, Edinburgh
+  </li>
+  <li>
+    <strong>Jul 2023</strong><br>
+    <strong>Winner (1st Place)</strong> @ Adventure X Hackathon
+  </li>
+  <li>
+    <strong>Jul 2022</strong><br>
+    <strong>Spring Intern</strong> @ HSBC Global Banking & Markets, London
+  </li>
+</ul>
+
 ## Skills
 
 ### Programming & Languages
