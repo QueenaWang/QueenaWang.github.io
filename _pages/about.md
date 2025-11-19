@@ -6,7 +6,7 @@ subtitle: >
   Finance × Tech × Strategy
   <br>
   Actuarial Associate @ PwC | MFin @ LSE | BSc Maths & Stats @ Edinburgh
-
+interactive_elements: true
 profile:
   align: right
   image: QW-photo.JPG
@@ -227,3 +227,25 @@ where analytical thinking creates real business impact.
 <span class="badge badge-pill badge-success mr-1 mb-1">Machine Learning</span>
 <span class="badge badge-pill badge-success mr-1 mb-1">Financial Modeling</span>
 <span class="badge badge-pill badge-success mr-1 mb-1">Consulting</span>
+
+## Daily Inspiration 💭
+
+<div id="random-quote" style="
+  padding: 1.5rem;
+  background: var(--global-card-bg-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 4px;
+  margin: 2rem 0;
+  font-size: 1.1rem;
+  color: var(--global-text-color);
+  text-align: center;
+  font-style: italic;
+"></div>
+
+## Fun Statistics 📊
+
+<div id="fun-stats" style="margin: 2rem 0;"></div>
+
+## Goals & Challenges 🎯
+
+<div id="goals-tracker" style="margin: 2rem 0;"></div>
