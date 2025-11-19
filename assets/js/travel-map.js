@@ -4,8 +4,8 @@ document.addEventListener("readystatechange", () => {
     const mapContainer = document.getElementById("travel-map");
     if (!mapContainer) return;
 
-    // Initialize map
-    const map = L.map(mapContainer).setView([30, 0], 2);
+    // Initialize map - will be adjusted to fit all markers
+    const map = L.map(mapContainer);
 
     // Add tile layer
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -338,10 +338,18 @@ document.addEventListener("readystatechange", () => {
       markers.push(marker);
     });
 
-    // Fit map to show all markers
+    // Fit map to show all markers with better padding
     if (markers.length > 0) {
       const group = new L.featureGroup(markers);
-      map.fitBounds(group.getBounds().pad(0.1));
+      const bounds = group.getBounds();
+      // Add more padding to make markers more visible
+      map.fitBounds(bounds, {
+        padding: [50, 50], // Top/bottom and left/right padding in pixels
+        maxZoom: 4, // Limit max zoom to keep overview visible
+      });
+    } else {
+      // Fallback view if no markers
+      map.setView([30, 0], 2);
     }
   }
 });
