@@ -130,3 +130,16 @@ where analytical thinking creates real business impact.
 <span class="badge badge-pill badge-success mr-1 mb-1">Machine Learning</span>
 <span class="badge badge-pill badge-success mr-1 mb-1">Financial Modeling</span>
 <span class="badge badge-pill badge-success mr-1 mb-1">Consulting</span>
+
+## Beyond Work
+
+When I'm not working with numbers and data, I enjoy exploring the world and pursuing
+various interests:
+
+- **🏔️ Adventure & Travel**: Trekking to Everest Base Camp (5000m), exploring new
+  places and cultures
+- **🏀 Sports**: Basketball (university team member)
+- **🎵 Music**: Playing Guzheng (Level 8, national certificate)
+- **🍳 Cooking**: Fusion of Sichuan and Mediterranean styles
+
+_Want to hear more about my adventures or share your own? Feel free to reach out!_
