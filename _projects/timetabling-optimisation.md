@@ -6,7 +6,7 @@ img: # Add your project thumbnail image path here (e.g., assets/img/timetabling-
 importance: 3
 category: work
 github: # Add your GitHub repository URL here (if available)
-date: # Add project date (e.g., "2023-03")
+# date: "2023-03" # Uncomment and set date when ready
 ---
 
 ## Overview
