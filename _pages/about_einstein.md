@@ -1,5 +1,5 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I’m an Actuarial Associate at PwC and a MFin student at LSE, with a BSc (Hons) in Mathematics and Statistics from the University of Edinburgh.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I enjoy working at the intersection of finance, technology and data. I like taking complex or unstructured problems, finding the logic behind them, and turning them into clear and useful solutions. Recently I’ve been especially interested in how AI and new technologies can support better decision-making, improve learning experiences and create more global and accessible ways of working.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I’m particularly interested in consulting, data-driven strategy and technology-focused roles where analytical thinking creates real business impact.
