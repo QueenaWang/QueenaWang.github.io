@@ -1,22 +1,37 @@
-# -----------------------------------------------------------------------------
+#  -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Queena Wang # the website title (if blank, full name will be used instead)
 first_name: Queena
 middle_name:
 last_name: Wang
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Best way to reach me: <a href="mailto:queenaaa.xyw@gmail.com">email</a> 
+  (for work / collaborations) or 
+  <a href="https://www.linkedin.com/in/queenaw/" target="_blank">LinkedIn</a> 
+  (for networking & coffee chats).
+description: > 
+  I’m an Actuarial Associate at PwC and a part-time MFin student at LSE, with a BSc (Hons) 
+  in Mathematics and Statistics from the University of Edinburgh.
+
+  I enjoy working at the intersection of finance, technology and data. I like taking complex 
+  or unstructured problems, finding the logic behind them, and turning them into clear and 
+  useful solutions. Recently I’ve been especially interested in how AI and new technologies 
+  can support better decision-making, improve learning experiences and create more global 
+  and accessible ways of working.
+
+  I’m particularly interested in consulting, data-driven strategy and technology-focused roles 
+  where analytical thinking creates real business impact.
+
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  © 2025 Queena Wang. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and 
+  <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a>. 
+  Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  
+keywords: curiosity, idea exploration, finance, emerging technology, AI-driven learning # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 💡 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://QueenaWang.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -86,8 +101,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Idea Playground # blog_name will be displayed in your blog page
+blog_description: Thoughts on the things I’m learning, building, and figuring out.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
