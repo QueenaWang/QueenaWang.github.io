@@ -135,7 +135,7 @@
   "awards": [
     {
       "title": "Adventure X Hackathon - Winner (1st Place)",
-      "date": "2023-07-01",
+      "date": "2025-07-01",
       "awarder": "Adventure X",
       "url": "",
       "summary": "Developed a voice-driven AI journaling agent for visually impaired users and emotional wellbeing tracking; achieved 173 out of 205 audience votes, placing 1st. Led database design and API integration, connecting speech-to-text pipelines with journaling and analytics modules."

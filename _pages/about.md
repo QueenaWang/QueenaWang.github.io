@@ -85,7 +85,7 @@ where analytical thinking creates real business impact.
   <div class="timeline-item" style="position: relative; padding-bottom: 2rem; padding-left: 1.5rem;">
     <div class="timeline-dot" style="position: absolute; left: -0.5rem; top: 0.25rem; width: 12px; height: 12px; border-radius: 50%; background-color: var(--global-theme-color); border: 2px solid var(--global-bg-color); z-index: 1;"></div>
     <div class="timeline-content">
-      <div class="timeline-date" style="color: var(--global-text-color-light); font-size: 0.9rem; margin-bottom: 0.25rem;">Jul 2023</div>
+      <div class="timeline-date" style="color: var(--global-text-color-light); font-size: 0.9rem; margin-bottom: 0.25rem;">Jul 2025</div>
       <div class="timeline-title" style="font-weight: 600; color: var(--global-text-color); margin-bottom: 0.25rem;">Winner (1st Place)</div>
       <div class="timeline-location" style="color: var(--global-text-color-light); font-size: 0.9rem;">Adventure X Hackathon</div>
     </div>
