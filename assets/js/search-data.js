@@ -44,6 +44,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/interests/";
               },
+            },{id: "dropdown-resources",
+              title: "resources",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/resources/";
+              },
             },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -446,6 +453,21 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-adventure-x-hackathon-ai-journaling-agent",
+          title: 'Adventure X Hackathon - AI Journaling Agent',
+          description: "Winner (1st Place) - Voice-driven AI journaling agent for visually impaired users and emotional wellbeing tracking",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/adventure-x-hackathon/";
+            },},{id: "projects-uk-covid-19-excess-mortality-modelling",
+          title: 'UK COVID-19 Excess Mortality Modelling',
+          description: "Statistical modelling of UK COVID-19 excess mortality using R",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/covid19-modelling/";
+            },},{id: "projects-timetabling-optimisation",
+          title: 'Timetabling Optimisation',
+          description: "Optimisation project using Operational Research methods &amp; Python",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/timetabling-optimisation/";
             },},{
         id: 'social-cv',
         title: 'CV',
