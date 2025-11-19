@@ -12,9 +12,11 @@ profile:
   image: QW-photo.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>London, United Kingdom</p>
-    <p><a href="mailto:queenaaa.xyw@gmail.com">queenaaa.xyw@gmail.com</a></p>
-    <p><a href="https://www.linkedin.com/in/queenaw/" target="_blank">LinkedIn</a></p>
+    <p><i class="fa-solid fa-location-dot"></i> London, UK</p>
+    <p><i class="fa-solid fa-graduation-cap"></i> LSE, University of Edinburgh</p>
+    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:queenaaa.xyw@gmail.com">queenaaa.xyw@gmail.com</a></p>
+    <p><i class="fa-brands fa-github"></i> <a href="https://github.com/QueenaWang" target="_blank">GitHub</a></p>
+    <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/queenaw/" target="_blank">LinkedIn</a></p>
     <p><a href="https://calendly.com/queenaa-wxy/30min" target="_blank">📅 Book a Chat</a></p>
 
 selected_papers: false
