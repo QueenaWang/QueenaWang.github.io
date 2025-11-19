@@ -284,9 +284,9 @@ document.addEventListener("readystatechange", () => {
         borderWidth = "3px";
         animation = "";
       } else {
-        // country markers - smaller
-        size = 32;
-        fontSize = 18;
+        // country markers - even smaller for better visibility
+        size = 28;
+        fontSize = 16;
         borderWidth = "2px";
         animation = "";
       }
@@ -342,14 +342,24 @@ document.addEventListener("readystatechange", () => {
     if (markers.length > 0) {
       const group = new L.featureGroup(markers);
       const bounds = group.getBounds();
-      // Add more padding to make markers more visible
+      // Add more padding and set minimum zoom for better visibility
       map.fitBounds(bounds, {
-        padding: [50, 50], // Top/bottom and left/right padding in pixels
-        maxZoom: 4, // Limit max zoom to keep overview visible
+        padding: [80, 80], // Increased padding for better visibility
+        maxZoom: 3, // Lower max zoom to show more context
+        minZoom: 2, // Set minimum zoom level
       });
+
+      // Ensure map doesn't zoom in too much
+      if (map.getZoom() > 3) {
+        map.setZoom(3);
+      }
     } else {
       // Fallback view if no markers
       map.setView([30, 0], 2);
     }
+
+    // Set minimum zoom level globally
+    map.setMinZoom(2);
+    map.setMaxZoom(10);
   }
 });

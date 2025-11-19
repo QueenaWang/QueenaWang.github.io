@@ -8,16 +8,22 @@ travel_map: true
 _styles: >
   #travel-map {
     width: 100%;
-    height: 600px;
+    height: 700px;
     border-radius: 8px;
     margin: 2rem 0;
     border: 1px solid var(--global-divider-color);
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 1;
+  }
+
+  /* Improve map tile rendering */
+  #travel-map .leaflet-container {
+    background-color: var(--global-bg-color);
   }
 
   @media (max-width: 768px) {
     #travel-map {
-      height: 500px;
+      height: 550px;
     }
   }
   .custom-marker {
