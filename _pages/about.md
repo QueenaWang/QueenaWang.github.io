@@ -45,62 +45,159 @@ where analytical thinking creates real business impact.
 
 ## Timeline
 
-<div class="timeline-container" style="position: relative; padding-left: 2rem; margin: 2rem 0;">
-  <div class="timeline-item" style="position: relative; padding-bottom: 2rem; padding-left: 1.5rem;">
-    <div class="timeline-dot" style="position: absolute; left: -0.5rem; top: 0.25rem; width: 12px; height: 12px; border-radius: 50%; background-color: var(--global-theme-color); border: 2px solid var(--global-bg-color); z-index: 1;"></div>
+<style>
+.timeline-container {
+  position: relative;
+  padding-left: 2rem;
+  margin: 2rem 0;
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.timeline-item:hover {
+  background-color: var(--global-card-bg-color);
+  transform: translateX(5px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item:hover .timeline-dot {
+  width: 16px;
+  height: 16px;
+  left: -0.625rem;
+  box-shadow: 0 0 0 4px rgba(var(--global-theme-color-rgb, 123, 97, 255), 0.2);
+}
+
+.timeline-item:hover .timeline-title {
+  color: var(--global-theme-color);
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -0.5rem;
+  top: 0.25rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--global-theme-color);
+  border: 2px solid var(--global-bg-color);
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.timeline-content {
+  transition: all 0.3s ease;
+}
+
+.timeline-date {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  transition: color 0.3s ease;
+}
+
+.timeline-item:hover .timeline-date {
+  color: var(--global-theme-color);
+  font-weight: 500;
+}
+
+.timeline-title {
+  font-weight: 600;
+  color: var(--global-text-color);
+  margin-bottom: 0.25rem;
+  transition: all 0.3s ease;
+}
+
+.timeline-location {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.timeline-item:hover .timeline-location {
+  color: var(--global-text-color);
+}
+
+.timeline-line {
+  position: absolute;
+  left: 0.375rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--global-theme-color), var(--global-divider-color));
+  transition: width 0.3s ease;
+}
+
+.timeline-container:hover .timeline-line {
+  width: 3px;
+}
+</style>
+
+<div class="timeline-container">
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
     <div class="timeline-content">
-      <div class="timeline-date" style="color: var(--global-text-color-light); font-size: 0.9rem; margin-bottom: 0.25rem;">Jul 2025</div>
-      <div class="timeline-title" style="font-weight: 600; color: var(--global-text-color); margin-bottom: 0.25rem;">Winner (1st Place)</div>
-      <div class="timeline-location" style="color: var(--global-text-color-light); font-size: 0.9rem;">Adventure X Hackathon</div>
+      <div class="timeline-date">Jul 2025</div>
+      <div class="timeline-title">Winner (1st Place)</div>
+      <div class="timeline-location">Adventure X Hackathon</div>
     </div>
   </div>
   
-  <div class="timeline-item" style="position: relative; padding-bottom: 2rem; padding-left: 1.5rem;">
-    <div class="timeline-dot" style="position: absolute; left: -0.5rem; top: 0.25rem; width: 12px; height: 12px; border-radius: 50%; background-color: var(--global-theme-color); border: 2px solid var(--global-bg-color); z-index: 1;"></div>
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
     <div class="timeline-content">
-      <div class="timeline-date" style="color: var(--global-text-color-light); font-size: 0.9rem; margin-bottom: 0.25rem;">Sep 2024 - Present</div>
-      <div class="timeline-title" style="font-weight: 600; color: var(--global-text-color); margin-bottom: 0.25rem;">Actuary Associate</div>
-      <div class="timeline-location" style="color: var(--global-text-color-light); font-size: 0.9rem;">PwC, London</div>
+      <div class="timeline-date">Sep 2024 - Present</div>
+      <div class="timeline-title">Actuary Associate</div>
+      <div class="timeline-location">PwC, London</div>
     </div>
   </div>
   
-  <div class="timeline-item" style="position: relative; padding-bottom: 2rem; padding-left: 1.5rem;">
-    <div class="timeline-dot" style="position: absolute; left: -0.5rem; top: 0.25rem; width: 12px; height: 12px; border-radius: 50%; background-color: var(--global-theme-color); border: 2px solid var(--global-bg-color); z-index: 1;"></div>
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
     <div class="timeline-content">
-      <div class="timeline-date" style="color: var(--global-text-color-light); font-size: 0.9rem; margin-bottom: 0.25rem;">May 2024 - Aug 2024</div>
-      <div class="timeline-title" style="font-weight: 600; color: var(--global-text-color); margin-bottom: 0.25rem;">Visiting Scholar</div>
-      <div class="timeline-location" style="color: var(--global-text-color-light); font-size: 0.9rem;">Stanford University, Palo Alto</div>
+      <div class="timeline-date">May 2024 - Aug 2024</div>
+      <div class="timeline-title">Visiting Scholar</div>
+      <div class="timeline-location">Stanford University, Palo Alto</div>
     </div>
   </div>
   
-  <div class="timeline-item" style="position: relative; padding-bottom: 2rem; padding-left: 1.5rem;">
-    <div class="timeline-dot" style="position: absolute; left: -0.5rem; top: 0.25rem; width: 12px; height: 12px; border-radius: 50%; background-color: var(--global-theme-color); border: 2px solid var(--global-bg-color); z-index: 1;"></div>
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
     <div class="timeline-content">
-      <div class="timeline-date" style="color: var(--global-text-color-light); font-size: 0.9rem; margin-bottom: 0.25rem;">Sep 2021 - May 2024</div>
-      <div class="timeline-title" style="font-weight: 600; color: var(--global-text-color); margin-bottom: 0.25rem;">BSc (Hons) Mathematics and Statistics</div>
-      <div class="timeline-location" style="color: var(--global-text-color-light); font-size: 0.9rem;">University of Edinburgh</div>
+      <div class="timeline-date">Sep 2021 - May 2024</div>
+      <div class="timeline-title">BSc (Hons) Mathematics and Statistics</div>
+      <div class="timeline-location">University of Edinburgh</div>
     </div>
   </div>
   
-  <div class="timeline-item" style="position: relative; padding-bottom: 2rem; padding-left: 1.5rem;">
-    <div class="timeline-dot" style="position: absolute; left: -0.5rem; top: 0.25rem; width: 12px; height: 12px; border-radius: 50%; background-color: var(--global-theme-color); border: 2px solid var(--global-bg-color); z-index: 1;"></div>
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
     <div class="timeline-content">
-      <div class="timeline-date" style="color: var(--global-text-color-light); font-size: 0.9rem; margin-bottom: 0.25rem;">Jul 2023 - Aug 2023</div>
-      <div class="timeline-title" style="font-weight: 600; color: var(--global-text-color); margin-bottom: 0.25rem;">Actuarial Analyst</div>
-      <div class="timeline-location" style="color: var(--global-text-color-light); font-size: 0.9rem;">PwC, Edinburgh</div>
+      <div class="timeline-date">Jul 2023 - Aug 2023</div>
+      <div class="timeline-title">Actuarial Internship</div>
+      <div class="timeline-location">PwC, Edinburgh</div>
     </div>
   </div>
   
-  <div class="timeline-item" style="position: relative; padding-bottom: 1rem; padding-left: 1.5rem;">
-    <div class="timeline-dot" style="position: absolute; left: -0.5rem; top: 0.25rem; width: 12px; height: 12px; border-radius: 50%; background-color: var(--global-theme-color); border: 2px solid var(--global-bg-color); z-index: 1;"></div>
+  <div class="timeline-item" style="padding-bottom: 1rem;">
+    <div class="timeline-dot"></div>
     <div class="timeline-content">
-      <div class="timeline-date" style="color: var(--global-text-color-light); font-size: 0.9rem; margin-bottom: 0.25rem;">Jul 2022</div>
-      <div class="timeline-title" style="font-weight: 600; color: var(--global-text-color); margin-bottom: 0.25rem;">Spring Intern</div>
-      <div class="timeline-location" style="color: var(--global-text-color-light); font-size: 0.9rem;">HSBC Global Banking & Markets, London</div>
+      <div class="timeline-date">Jul 2022</div>
+      <div class="timeline-title">Spring Intern</div>
+      <div class="timeline-location">HSBC Global Banking & Markets, London</div>
     </div>
   </div>
   
-  <div class="timeline-line" style="position: absolute; left: 0.375rem; top: 0; bottom: 0; width: 2px; background: linear-gradient(to bottom, var(--global-theme-color), var(--global-divider-color));"></div>
+  <div class="timeline-line"></div>
 </div>
 
 ## Skills
