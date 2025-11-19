@@ -52,6 +52,13 @@ where analytical thinking creates real business impact.
   position: relative;
   padding-left: 2rem;
   margin: 2rem 0;
+  max-width: 60%;
+}
+
+@media (max-width: 768px) {
+  .timeline-container {
+    max-width: 100%;
+  }
 }
 
 .timeline-item {
@@ -64,6 +71,8 @@ where analytical thinking creates real business impact.
   border-radius: 8px;
   transition: all 0.3s ease;
   cursor: pointer;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .timeline-item:hover {
