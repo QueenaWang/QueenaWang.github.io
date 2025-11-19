@@ -18,11 +18,22 @@ _styles: >
     background: transparent !important;
     border: none !important;
   }
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    50% {
+      box-shadow: 0 2px 16px var(--global-theme-color);
+    }
+    100% {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+  }
 ---
 
 ## Travel Footprint 🗺️
 
-Here are some of the places I've explored and lived in:
+Here are the special places that have shaped my journey, from my hometown to where I am today:
 
 <div id="travel-map"></div>
 

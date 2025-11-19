@@ -16,62 +16,86 @@ document.addEventListener("readystatechange", () => {
     // Travel locations with coordinates
     const locations = [
       {
+        name: "Xi'an, Shaanxi",
+        lat: 34.3416,
+        lng: 108.9398,
+        description: "🏠 My Hometown - Where I was born",
+        icon: "🏠",
+        category: "special",
+      },
+      {
+        name: "Melbourne, Australia",
+        lat: -37.8136,
+        lng: 144.9631,
+        description: "📚 High School - Where I completed my secondary education",
+        icon: "📚",
+        category: "special",
+      },
+      {
+        name: "Edinburgh, UK",
+        lat: 55.9533,
+        lng: -3.1883,
+        description: "🎓 University - BSc (Hons) Mathematics and Statistics @ University of Edinburgh",
+        icon: "🎓",
+        category: "special",
+      },
+      {
+        name: "London, UK",
+        lat: 51.5074,
+        lng: -0.1278,
+        description: "💼 Work - PwC Actuary Associate | LSE MFin Student",
+        icon: "💼",
+        category: "special",
+      },
+      {
         name: "Everest Base Camp",
         lat: 28.0026,
         lng: 86.8528,
-        description: "Trekking to 5000m - An unforgettable adventure!",
+        description: "🏔️ Trekking to 5000m - An unforgettable adventure!",
         icon: "🏔️",
+        category: "adventure",
       },
       {
         name: "Stanford University",
         lat: 37.4275,
         lng: -122.1697,
-        description: "Visiting Scholar (May - Aug 2024)",
-        icon: "🎓",
-      },
-      {
-        name: "Edinburgh",
-        lat: 55.9533,
-        lng: -3.1883,
-        description: "University of Edinburgh - BSc (Hons) Mathematics and Statistics",
-        icon: "🏛️",
-      },
-      {
-        name: "London",
-        lat: 51.5074,
-        lng: -0.1278,
-        description: "PwC Actuary Associate | LSE MFin Student",
-        icon: "🏙️",
+        description: "🔬 Visiting Scholar (May - Aug 2024)",
+        icon: "🔬",
+        category: "adventure",
       },
     ];
 
-    // Create custom icon
-    const createCustomIcon = (iconEmoji) => {
+    // Create custom icon with different sizes for special locations
+    const createCustomIcon = (iconEmoji, isSpecial = false) => {
+      const size = isSpecial ? 50 : 40;
+      const fontSize = isSpecial ? 24 : 20;
       return L.divIcon({
         className: "custom-marker",
         html: `<div style="
           background-color: var(--global-theme-color);
-          width: 40px;
-          height: 40px;
+          width: ${size}px;
+          height: ${size}px;
           border-radius: 50%;
           display: flex;
           align-items: center;
           justify-content: center;
-          font-size: 20px;
-          border: 3px solid var(--global-bg-color);
+          font-size: ${fontSize}px;
+          border: ${isSpecial ? "4px" : "3px"} solid var(--global-bg-color);
           box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+          ${isSpecial ? "animation: pulse 2s infinite;" : ""}
         ">${iconEmoji}</div>`,
-        iconSize: [40, 40],
-        iconAnchor: [20, 20],
-        popupAnchor: [0, -20],
+        iconSize: [size, size],
+        iconAnchor: [size / 2, size / 2],
+        popupAnchor: [0, -size / 2],
       });
     };
 
     // Add markers
     const markers = [];
     locations.forEach((location) => {
+      const isSpecial = location.category === "special";
       const marker = L.marker([location.lat, location.lng], {
-        icon: createCustomIcon(location.icon),
+        icon: createCustomIcon(location.icon, isSpecial),
       })
         .addTo(map)
         .bindPopup(
