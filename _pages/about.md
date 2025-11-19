@@ -13,7 +13,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: |
     <p style="display: block; margin: 0;"><i class="fa-solid fa-location-dot"></i> London, UK</p>
-    <p style="display: block; margin: 0;"><i class="fa-solid fa-graduation-cap"></i> The London School of Economics</p>
+    <p style="display: block; margin: 0; white-space: nowrap;"><i class="fa-solid fa-graduation-cap"></i> The London School of Economics</p>
     <p style="display: block; margin: 0;"><a href="https://github.com/QueenaWang" target="_blank" style="color: var(--global-text-color); text-decoration: none;"><i class="fa-brands fa-github" style="font-size: 1.2em;"></i> GitHub</a></p>
     <p style="display: block; margin: 0;"><a href="https://www.linkedin.com/in/queenaw/" target="_blank" style="color: var(--global-text-color); text-decoration: none;"><i class="fa-brands fa-linkedin" style="font-size: 1.2em;"></i> LinkedIn</a></p>
     <p style="display: block; margin: 0;"><a href="https://calendly.com/queenaa-wxy/30min" target="_blank" style="color: var(--global-text-color); text-decoration: none;"><i class="fa-solid fa-calendar-check" style="font-size: 1.2em;"></i> Book a Chat</a></p>
