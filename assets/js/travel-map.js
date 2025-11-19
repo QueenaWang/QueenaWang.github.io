@@ -15,6 +15,7 @@ document.addEventListener("readystatechange", () => {
 
     // Travel locations with coordinates
     const locations = [
+      // Special places
       {
         name: "Xi'an, Shaanxi",
         lat: 34.3416,
@@ -63,12 +64,233 @@ document.addEventListener("readystatechange", () => {
         icon: "🔬",
         category: "adventure",
       },
+      // Countries visited - Europe
+      {
+        name: "United Kingdom",
+        lat: 54.7024,
+        lng: -3.2766,
+        description: "🇬🇧 United Kingdom",
+        icon: "🇬🇧",
+        category: "country",
+      },
+      {
+        name: "France",
+        lat: 46.2276,
+        lng: 2.2137,
+        description: "🇫🇷 France",
+        icon: "🇫🇷",
+        category: "country",
+      },
+      {
+        name: "Belgium",
+        lat: 50.5039,
+        lng: 4.4699,
+        description: "🇧🇪 Belgium",
+        icon: "🇧🇪",
+        category: "country",
+      },
+      {
+        name: "Netherlands",
+        lat: 52.1326,
+        lng: 5.2913,
+        description: "🇳🇱 Netherlands",
+        icon: "🇳🇱",
+        category: "country",
+      },
+      {
+        name: "Monaco",
+        lat: 43.7384,
+        lng: 7.4246,
+        description: "🇲🇨 Monaco",
+        icon: "🇲🇨",
+        category: "country",
+      },
+      {
+        name: "Italy",
+        lat: 41.8719,
+        lng: 12.5674,
+        description: "🇮🇹 Italy",
+        icon: "🇮🇹",
+        category: "country",
+      },
+      {
+        name: "Portugal",
+        lat: 39.3999,
+        lng: -8.2245,
+        description: "🇵🇹 Portugal",
+        icon: "🇵🇹",
+        category: "country",
+      },
+      {
+        name: "Croatia",
+        lat: 45.1,
+        lng: 15.2,
+        description: "🇭🇷 Croatia",
+        icon: "🇭🇷",
+        category: "country",
+      },
+      {
+        name: "Vatican City",
+        lat: 41.9029,
+        lng: 12.4534,
+        description: "🇻🇦 Vatican City",
+        icon: "🇻🇦",
+        category: "country",
+      },
+      {
+        name: "Denmark",
+        lat: 56.2639,
+        lng: 9.5018,
+        description: "🇩🇰 Denmark",
+        icon: "🇩🇰",
+        category: "country",
+      },
+      {
+        name: "Norway",
+        lat: 60.472,
+        lng: 8.4689,
+        description: "🇳🇴 Norway",
+        icon: "🇳🇴",
+        category: "country",
+      },
+      {
+        name: "Sweden",
+        lat: 60.1282,
+        lng: 18.6435,
+        description: "🇸🇪 Sweden",
+        icon: "🇸🇪",
+        category: "country",
+      },
+      {
+        name: "Finland",
+        lat: 61.9241,
+        lng: 25.7482,
+        description: "🇫🇮 Finland",
+        icon: "🇫🇮",
+        category: "country",
+      },
+      {
+        name: "Switzerland",
+        lat: 46.8182,
+        lng: 8.2275,
+        description: "🇨🇭 Switzerland",
+        icon: "🇨🇭",
+        category: "country",
+      },
+      // Countries visited - Asia
+      {
+        name: "China",
+        lat: 35.8617,
+        lng: 104.1954,
+        description: "🇨🇳 China",
+        icon: "🇨🇳",
+        category: "country",
+      },
+      {
+        name: "Japan",
+        lat: 36.2048,
+        lng: 138.2529,
+        description: "🇯🇵 Japan",
+        icon: "🇯🇵",
+        category: "country",
+      },
+      {
+        name: "South Korea",
+        lat: 35.9078,
+        lng: 127.7669,
+        description: "🇰🇷 South Korea",
+        icon: "🇰🇷",
+        category: "country",
+      },
+      {
+        name: "Singapore",
+        lat: 1.3521,
+        lng: 103.8198,
+        description: "🇸🇬 Singapore",
+        icon: "🇸🇬",
+        category: "country",
+      },
+      {
+        name: "Malaysia",
+        lat: 4.2105,
+        lng: 101.9758,
+        description: "🇲🇾 Malaysia",
+        icon: "🇲🇾",
+        category: "country",
+      },
+      {
+        name: "Indonesia",
+        lat: -0.7893,
+        lng: 113.9213,
+        description: "🇮🇩 Indonesia",
+        icon: "🇮🇩",
+        category: "country",
+      },
+      {
+        name: "Qatar",
+        lat: 25.3548,
+        lng: 51.1839,
+        description: "🇶🇦 Qatar",
+        icon: "🇶🇦",
+        category: "country",
+      },
+      {
+        name: "United Arab Emirates",
+        lat: 23.4241,
+        lng: 53.8478,
+        description: "🇦🇪 United Arab Emirates",
+        icon: "🇦🇪",
+        category: "country",
+      },
+      // Countries visited - Oceania
+      {
+        name: "Australia",
+        lat: -25.2744,
+        lng: 133.7751,
+        description: "🇦🇺 Australia",
+        icon: "🇦🇺",
+        category: "country",
+      },
+      {
+        name: "New Zealand",
+        lat: -40.9006,
+        lng: 174.886,
+        description: "🇳🇿 New Zealand",
+        icon: "🇳🇿",
+        category: "country",
+      },
+      // Countries visited - Americas
+      {
+        name: "United States",
+        lat: 37.0902,
+        lng: -95.7129,
+        description: "🇺🇸 United States",
+        icon: "🇺🇸",
+        category: "country",
+      },
     ];
 
     // Create custom icon with different sizes for special locations
-    const createCustomIcon = (iconEmoji, isSpecial = false) => {
-      const size = isSpecial ? 50 : 40;
-      const fontSize = isSpecial ? 24 : 20;
+    const createCustomIcon = (iconEmoji, category = "country") => {
+      let size, fontSize, borderWidth, animation;
+      if (category === "special") {
+        size = 50;
+        fontSize = 24;
+        borderWidth = "4px";
+        animation = "animation: pulse 2s infinite;";
+      } else if (category === "adventure") {
+        size = 40;
+        fontSize = 20;
+        borderWidth = "3px";
+        animation = "";
+      } else {
+        // country markers - smaller
+        size = 32;
+        fontSize = 18;
+        borderWidth = "2px";
+        animation = "";
+      }
+
       return L.divIcon({
         className: "custom-marker",
         html: `<div style="
@@ -80,9 +302,9 @@ document.addEventListener("readystatechange", () => {
           align-items: center;
           justify-content: center;
           font-size: ${fontSize}px;
-          border: ${isSpecial ? "4px" : "3px"} solid var(--global-bg-color);
+          border: ${borderWidth} solid var(--global-bg-color);
           box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-          ${isSpecial ? "animation: pulse 2s infinite;" : ""}
+          ${animation}
         ">${iconEmoji}</div>`,
         iconSize: [size, size],
         iconAnchor: [size / 2, size / 2],
@@ -90,20 +312,28 @@ document.addEventListener("readystatechange", () => {
       });
     };
 
-    // Add markers
+    // Add markers - add special and adventure first, then countries
     const markers = [];
+    const specialMarkers = [];
+    const countryMarkers = [];
+
     locations.forEach((location) => {
-      const isSpecial = location.category === "special";
       const marker = L.marker([location.lat, location.lng], {
-        icon: createCustomIcon(location.icon, isSpecial),
-      })
-        .addTo(map)
-        .bindPopup(
-          `<div style="text-align: center;">
-            <strong style="font-size: 1.1em; color: var(--global-theme-color);">${location.name}</strong><br>
-            <span style="font-size: 0.9em; color: var(--global-text-color-light);">${location.description}</span>
-          </div>`
-        );
+        icon: createCustomIcon(location.icon, location.category),
+      }).bindPopup(
+        `<div style="text-align: center;">
+          <strong style="font-size: 1.1em; color: var(--global-theme-color);">${location.name}</strong><br>
+          <span style="font-size: 0.9em; color: var(--global-text-color-light);">${location.description}</span>
+        </div>`
+      );
+
+      if (location.category === "special" || location.category === "adventure") {
+        marker.addTo(map);
+        specialMarkers.push(marker);
+      } else {
+        marker.addTo(map);
+        countryMarkers.push(marker);
+      }
 
       markers.push(marker);
     });

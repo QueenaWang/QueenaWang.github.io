@@ -33,7 +33,8 @@ _styles: >
 
 ## Travel Footprint 🗺️
 
-Here are the special places that have shaped my journey, from my hometown to where I am today:
+Here are the special places that have shaped my journey, from my hometown to where I am today,
+along with all the countries I've had the privilege to visit:
 
 <div id="travel-map"></div>
 
