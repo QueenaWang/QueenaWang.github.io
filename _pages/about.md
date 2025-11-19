@@ -3,7 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Finance × Tech × Strategy · 
+  Finance × Tech × Strategy
+  <br>
   Actuarial Associate @ PwC | MFin @ LSE | BSc Maths & Stats @ Edinburgh
 
 profile:
