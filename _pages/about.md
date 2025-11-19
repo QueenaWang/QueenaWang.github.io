@@ -20,7 +20,7 @@ profile:
     <p><a href="mailto:queenaaa.xyw@gmail.com" style="color: var(--global-text-color); text-decoration: none;"><i class="fa-solid fa-envelope"></i> queenaaa.xyw@gmail.com</a></p>
 
 selected_papers: false
-social: true
+social: false
 
 announcements:
   enabled: false
@@ -28,7 +28,7 @@ announcements:
   limit: 5
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 3
 ---
