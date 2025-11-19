@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://queenawang.github.io/sitemap.xml
+Sitemap: https://QueenaWang.github.io/sitemap.xml
