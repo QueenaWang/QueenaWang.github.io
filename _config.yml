@@ -11,7 +11,7 @@ contact_note: >
   (for work / collaborations) or 
   <a href="https://www.linkedin.com/in/queenaw/" target="_blank">LinkedIn</a> 
   (for networking & coffee chats).
-description: > 
+description: >
   I’m an Actuarial Associate at PwC and a part-time MFin student at LSE, with a BSc (Hons) 
   in Mathematics and Statistics from the University of Edinburgh.
 
@@ -28,7 +28,7 @@ footer_text: >
   © 2025 Queena Wang. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and 
   <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a>. 
   Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  
+
 keywords: curiosity, idea exploration, finance, emerging technology, AI-driven learning # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 💡 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -131,9 +131,8 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname:  # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -295,9 +294,6 @@ display_categories: ["external-services"] # these categories will be displayed o
 #   group_order: descending
 # 以后有Paper再加
 
-
-
-
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
 
@@ -337,7 +333,6 @@ display_categories: ["external-services"] # these categories will be displayed o
 #     website,
 #   ]
 # 以后有Paper再加
-
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 
